@@ -13,7 +13,7 @@ const projects = [
     src: "medinexa.jpg",
     link: "/logos/Medinexa.png",
     color: "#5196fd",
-    githubLink: "https://github.com/Raktim-2003/LifeLogix",
+    githubLink: "https://github.com/Raktim-2003/Medinexa",
     // liveLink: "https://olova.js.org/",
   },
   {
