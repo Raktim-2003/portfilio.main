@@ -14,14 +14,22 @@ export default function About() {
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
                 <img
                   src={HeroImg}
-                  className="rounded-[15px] shadow block"
                   alt="payments illustration"
                   width={1207}
                   height={929}
+                  className="
+                  rounded-full 
+                  shadow-lg 
+                  block 
+                  object-cover
+                  transition-all duration-300 ease-in-out
+                  hover:scale-105 
+                  hover:shadow-2xl 
+                  hover:ring-4 
+                  hover:ring-indigo-400/50"
                 />
               </div>
             </div>
-
             <div className="relative space-y-4">
               <p className="text-white">
                 Hello! I'm Raktim MOndal, Web Developer and CSE(DS) student.

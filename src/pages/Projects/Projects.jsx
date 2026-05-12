@@ -70,12 +70,12 @@ const projects = [
     liveLink: " https://raktim-weatherapplication.netlify.app",
   },
   {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
+    // title: "CodeKori 🔥",
+    // description:
+    //   "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+    // src: "house.jpg",
+    // link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    // color: "#ed649e",
     // githubLink: "https://github.com/seraprogrammer/CodeKori",
     // liveLink: "https://codekori.js.org",
   },
