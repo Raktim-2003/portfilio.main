@@ -11,13 +11,14 @@ export default function EducationSection() {
       logo: "/logos/brainware_logo.png",
       year: "2022 – 2026",
       achievements: [
-        "CGPA: Pursuing",
-        "Specialization: Computer Science and Engineering",
+        "CGPA: 7.79",
+        "Specialization: Data Science",
       ],
       skills: [
         "Data Structures",
         "Algorithms",
         "React",
+        "Next.js",
         "Node.js",
         "MongoDB",
         "Express.js",

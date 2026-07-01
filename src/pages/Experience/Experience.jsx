@@ -67,7 +67,7 @@ const experiences = [
   {
     title: "MERN Stack Developer Trainee",
     company: "Euphoria GenX",
-    period: "2024",
+    period: "Jan-2026-Pursuing",
     address: "Kolkata, West Bengal, India",
     description:
       "Completed intensive Industrial Training in MERN Stack Development, gaining hands-on experience in building full-stack web applications using modern technologies and industry best practices.",
@@ -96,11 +96,11 @@ export default function ExperienceSection() {
     <ReactLenis root>
       <main ref={container} className="bg-[#04081A] text-white">
         {/* HEADER */}
-        <section className="pt-28 pb-16 text-center">
-          <h2 className="text-6xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
+        <section className="pt-24 pb-12 text-center px-5">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent leading-tight">
             Professional Journey
           </h2>
-          <p className="text-gray-400 mt-4 text-lg">
+          <p className="text-gray-400 mt-4 text-base sm:text-lg px-4">
             Transforming ideas into digital reality
           </p>
         </section>
@@ -138,7 +138,7 @@ function ExperienceCard({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    <div className="h-screen flex items-center justify-center sticky top-0">
+    <div className="min-h-screen flex items-center justify-center sticky top-0 px-4 py-8">
       <motion.div
         style={{ scale }}
         whileHover={{
@@ -147,11 +147,11 @@ function ExperienceCard({
           boxShadow: "0px 0px 50px rgba(59,130,246,0.3)",
         }}
         transition={{ duration: 0.4 }}
-        className="w-[65%] min-h-[520px] bg-zinc-900 rounded-2xl shadow-2xl border border-gray-800 p-10"
+        className="w-full max-w-5xl min-h-[520px] bg-zinc-900 rounded-2xl shadow-2xl border border-gray-800 p-6 sm:p-8 md:p-10"
       >
-        <div className="flex items-start gap-6">
+        <div className="flex flex-col sm:flex-row items-start gap-6">
           {/* LOGO */}
-          <div className="bg-gray-100 rounded-xl p-3 shadow-md flex items-center justify-center min-w-[70px] min-h-[70px]">
+          <div className="bg-gray-100 rounded-xl p-3 shadow-md flex items-center justify-center w-[70px] h-[70px] flex-shrink-0">
             <img
               src={logo}
               alt={company}
@@ -160,14 +160,14 @@ function ExperienceCard({
           </div>
           {/* TEXT */}
           <div>
-            <h2 className="text-3xl font-bold" style={{ color }}>
+            <h2 className="text-2xl sm:text-3xl font-bold leading-tight break-words" style={{ color }}>
               {title}
             </h2>
-            <p className="text-gray-400 text-lg mt-1">{company}</p>
+            <p className="ttext-gray-400 text-base sm:text-lg mt-1 break-words">{company}</p>
             {/* ✅ ADDRESS SHOW */}
             {address && (
-              <p className="text-gray-500 text-sm mt-1 flex items-center gap-2">
-                <span>📍</span>
+              <p className="text-gray-500 text-sm mt-2 flex items-start gap-2 break-words">
+                <span className="break-words">📍</span>
                 <span>{address}</span>
               </p>
             )}
@@ -175,7 +175,7 @@ function ExperienceCard({
           </div>
         </div>
         {/* DESCRIPTION */}
-        <p className="text-gray-300 mt-6 text-base leading-relaxed">
+        <p className="text-gray-300 mt-6 text-sm sm:text-base leading-relaxed">
           {description}
         </p>
         {/* RESPONSIBILITIES */}
@@ -188,7 +188,7 @@ function ExperienceCard({
               {responsibilities.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-3 text-gray-400 text-sm"
+                  className="flex items-start gap-3 text-gray-400 text-sm break-words"
                 >
                   <span style={{ color }} className="mt-[2px]">
                     ▹

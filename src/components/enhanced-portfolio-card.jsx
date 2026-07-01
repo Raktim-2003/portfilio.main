@@ -143,14 +143,10 @@ export default function EnhancedPortfolioCard() {
                 </Badge>
               </div>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Visual Designer with 7+ years of experience. I'm all about
-                crafting user-friendly interfaces that are functional and
-                visually compelling.
+                Frontend Developer specializing in React, JavaScript, and modern UI development. Passionate about creating scalable, high-performance web applications that combine clean design, seamless user experiences, and efficient code.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Born and raised in the beautiful Costa Rica. When I'm not busy
-                designing, you'll likely find me playing some board games, deep
-                into my Animal Crossing or cooking some mouthwatering Arepas.
+                I'm a passionate developer who enjoys turning ideas into real-world applications. Beyond coding, I love exploring emerging technologies, building innovative side projects, learning about startups, and continuously improving my skills as a software engineer.
               </p>
             </motion.div>
           </Card>
@@ -190,10 +186,10 @@ export default function EnhancedPortfolioCard() {
                 </motion.div>
                 <div>
                   <h3 className="font-semibold text-xl text-gray-100">
-                    Interaction Designer
+                    Web Designer
                   </h3>
                   <p className="text-lg text-gray-400">
-                    Critical Mass / On-Site Apple
+                    Frontend Developer / On-Site Apple
                   </p>
                 </div>
               </motion.div>
